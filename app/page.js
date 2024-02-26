@@ -23,6 +23,11 @@ export default function Home() {
           Week 4
         </Link>
       </div>
+      <div className=" box-border w-64 h-20 border-4 border-black bg-green-500 shadow-2xl hover:bg-neutral-400 hover:cursor-pointer m-4 flex justify-center items-center">
+        <Link href="/week-5" className=" text-green-200 text-3xl font-bold">
+          Week 5
+        </Link>
+      </div>
     </main>
   );
 }
